@@ -1,6 +1,7 @@
 # main text of home
 name: Andrew Fechner
-bio: Software Engineer, Minimalist Jekyll Template Connoisseur
+bio: Software Engineer,
+bio2: Minimalist Jekyll Template Connoisseur
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -39,10 +40,10 @@ permalink: /
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: http://linkedin.com/in/andrew-fechner
+linkedin: andrew-fechner
 # youtube: myyoutube
 # spotify: myspotify
-github: http://github.com/arfnj
+github: arfnj
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -113,6 +114,3 @@ jekyll-mentions:
 # Then for you it's css/_sass.
 
 # In your _config.yml, you have :
-
-sass:
-    sass_dir: css/_sass
