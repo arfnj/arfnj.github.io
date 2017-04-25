@@ -106,3 +106,13 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+
+
+# Jekyll doc says : If you are using Sass @import statements, you’ll need to ensure that your sass_dir is set to the base directory that contains your Sass files.
+
+# Then for you it's css/_sass.
+
+# In your _config.yml, you have :
+
+sass:
+    sass_dir: css/_sass
