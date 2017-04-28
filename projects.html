@@ -2,8 +2,18 @@
 layout: page
 title: Projects
 ---
-<section class="list">
-    {% for post in site.posts %}
+<header class="header-home">
+        <a class="link" href="{{ site.url }}/about">
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </a>
+        <h1 class="title">{{ site.name }}</h1>
+        <h2 class="description">{{ site.bio }}</h2>
+        <h2 class="description">{{ site.bio2 }}</h2>
+
+        {% include social-links.html %}
+</header>
+<div class="list">
+<!--     {% for post in site.posts %}
         {% if post.projects %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
@@ -12,5 +22,20 @@ title: Projects
                 </a>
             </div>
         {% endif %}
-    {% endfor %}
-</section>
+    {% endfor %} -->
+    <div class="animated-projects">
+        <section id="readcastly">
+            <a href="http://www.readcast.ly"><img class="project-img" src='../../assets/images/ReadCastly.png'><h2 class="project-title">ReadCast.ly</h2><p class="project-blurb">Give Your Eyes a Break, Your Ears a Treat,</p><p class="project-blurb">and Solve Your Reading Backlog</p></a>
+        </section>
+        <section id="sentimently">
+            <a href="http://bit.do/vtak"><img style="border:2px solid #c1c1c1" class="project-img" src='../../assets/images/Sentiment.png'><h2 class="project-title">Sentiment.ly</h2><p class="project-blurb">Twitter Users' Tone Analyzed by IBM Watson</p></a>
+        </section>
+        <section id="yelpschlep">
+            <a href="http://bit.do/takeahike"><img class="project-img" src='../../assets/images/YelpSchlep.png'><h2 class="project-title">YelpSchlep</h2><p class="project-blurb">Take a Hike ... with Help from Yelp and Google Maps</p></class="project-img"img></a>
+        </section>
+        <section id="worrytime">
+            <a href="http://bit.ly/worry-time"><img class="project-img"src='../../assets/images/worry-time.png'><h2 class="project-title">Time to Worry!</h2><p class="project-blurb">Returns Data on (Unrelated, Context-Free) Local Dangers!</p></a>
+        </section>
+    </div>
+</div>
+

@@ -40,7 +40,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="http://ReadCast.ly">ReadCast.ly</a></li>
-	<li><a href="http://bit.do/VTAK">Sentiment.ly</a></li>
-	<li><a href="http://bit.ly/worry-time">Worry Time!</a></li>
+	<li><a href="/projects#readcastly">ReadCast.ly</a></li>
+	<li><a href="/projects#sentimently">Sentiment.ly</a></li>
+	<li><a href="/projects#yelpschlep">YelpSchlep</a></li>
+	<li><a href="/projects#worrytime">Time to Worry!</a></li>
 </ul>
