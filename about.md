@@ -4,19 +4,9 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I'm a full stack JavaScript developer with experience working across multiple front-end frameworks and both SQL and noSQL databases. After an extended career as a content strategy executive at major media companies including Viacom, Turner, and BBC Worldwide, I'm excited to continue growing as a software engineer.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>When not in front of a keyboard and text editor, I'm known as a Jeopardy! champion, father of twins, puzzle hunt devotee (13 straight years at the MIT Mystery Hunt and counting), LearnedLeague Llama, Duke Basketball fanatic, and one-time Rolling Stone article subject/fashion model.</p>
 
 <h2>Skills</h2>
 
