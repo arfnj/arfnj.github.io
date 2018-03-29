@@ -107,3 +107,5 @@ gems:
 
 jekyll-mentions:
     base_url: https://arfnj.github.io
+
+exclude: [vendor]
